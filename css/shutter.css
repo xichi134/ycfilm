@@ -4,6 +4,7 @@
 .container {
     margin: 0px auto;
     width: 90%;
+    min-width: 1150px;
 }
 
 .menu, .menu ul {

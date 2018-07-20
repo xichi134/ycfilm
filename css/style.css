@@ -23,69 +23,58 @@ ul, li { list-style: none; }
 }
 .head_foot{
 	width:100%;
+	min-width: 1220px;
 	height:60px;
+	position: relative;
 }
 @media screen and (min-width: 1900px) { 
-.logo_box{
-  	margin: 3px 0 0 285px;
-	width: 60px;
-	height:100%;
-	float:left;
-}
-.logo_box img{
-    width:100%;
-	height:100%;
-}
-}
-.logo_box{
-  	margin: 3px 0 0 85px;
-	width: 60px;
-	height:100%;
-	float:left;
-}
-.logo_box img{
-    width:100%;
-	height:100%;
-}
-@media screen and (min-width: 1281px) { 
-.logo_box2{
-	float:left;
-  	margin: 3px 0px 0px 0px;
-	width: 900px;
-	height:100%;
-	
-}
-.logo_box2 img{
-    width:100%;
-	height:100%;
-}
-
-} 
-@media screen and (max-width: 1280px) { 
-.logo_box2{
-	float:left;
-  	margin: 3px 0px 0px 0px;
-	width: 800px;
-	height:100%;
-	
-}
-.logo_box2 img{
-    width:100%;
-	height:100%;
-}
-}
-@media screen and (max-width: 1024px) { 
-.logo_box2{
-	float:left;
-  	margin: 3px 0px 0px 0px;
-	width: 550px;
-	height:100%;
-	
-}
-.logo_box2 img{
-    width:100%;
-	height:100%;
-}
+	.logo_box{
+	  	margin: 3px 0 0 285px;
+		width: 60px;
+		height:100%;
+		float:left;
+	}
+	.logo_box img{
+	    width:100%;
+		height:100%;
+	}
+	}
+	.logo_box{
+	  	margin: 3px 0 0 85px;
+		width: 60px;
+		height:100%;
+		float:left;
+	}
+	.logo_box img{
+	    width:100%;
+		height:100%;
+	}
+	@media screen and (min-width: 1281px) { 
+		.logo_box2{
+			float:left;
+		  	margin: 3px 0px 0px 0px;
+			width: 900px;
+			height:100%;
+			
+		}
+		.logo_box2 img{
+		    width:100%;
+			height:100%;
+		}
+	} 
+	@media screen and (max-width: 1280px) { 
+		.logo_box2{
+			float:left;
+		  	margin: 3px 0px 0px 0px;
+			width: 800px;
+			height:100%;
+			
+		}
+		.logo_box2 img{
+		    width:100%;
+			height:100%;
+		}
+	}
 }
 
 .register{
@@ -96,7 +85,8 @@ ul, li { list-style: none; }
 }
 .user-behavior{
 	top:10px;
-	float:left;
+	right: 85px;
+	position: absolute;
 }
 
 .search{
@@ -109,7 +99,7 @@ ul, li { list-style: none; }
 	top:10px;
 }
 
-<!-- 展示部分 -->
+/*展示部分*/
 .middle{
 	width: 100%;
     min-width: 320px;
@@ -153,26 +143,27 @@ ul, li { list-style: none; }
 	width:100%;
 	height:100%;
 }
-.post-slide .post-content{
-	width:420px;
+.post-content{
+	width:390px;
 	height:150px;
 	display:block;
+	box-sizing: border-box;
+
 }
 .post-description{
-	width:420px;
+	width:390px;
 	height:150px;
 	color:#CD3278;
 	font-size:15px;
 	position:absolute;
-	word-break:break-all;
-	overflow:hidden;
-	display:block;
+	box-sizing: border-box;
+	display: block;
 }
 
 
 
 
-<!-- 尾部-->
+/*尾部*/
 @media screen and (max-width: 800px)
 media.css:192
 .foot{
