@@ -16,56 +16,69 @@
     height: 58px;
 }
 .menu li {
-    background: -moz-linear-gradient(#CAE1FF, #f8f8f8);
-    background: -ms-linear-gradient(#CAE1FF, #f8f8f8);
+    background: -moz-linear-gradient(#87CEFF, #f8f8f8);
+    background: -ms-linear-gradient(#87CEFF, #f8f8f8);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #292929), color-stop(100%, #252525));
-    background: -webkit-linear-gradient(#CAE1FF, #f8f8f8);
-    background: -o-linear-gradient(#CAE1FF, #f8f8f8);
+    background: -webkit-linear-gradient(#87CEFF, #f8f8f8);
+    background: -o-linear-gradient(#87CEFF, #f8f8f8);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#292929', endColorstr='#252525')";
-    background: linear-gradient(#CAE1FF, #f8f8f8);
+    background: linear-gradient(#87CEFF, #f8f8f8);
 
-    border-bottom: 2px solid #f8f8f8;
-    border-top: 2px solid #8B8B7A;
     min-width: 125px;
 }
 .menu > li {
-	color:#CAE1FF;
+    color:#97FFFF;
     display: block;
     float: left;
     position: relative;
 }
-.menu > li:first-child {
-    border-radius: 0px 0 0;
+.menu > li:first-child{
+    border-radius: 5px 5px 0 0;
+}
+.menu > li:nth-child(2){
+    border-radius: 5px 5px 0 0;
+}
+.menu > li:nth-child(3){
+  border-radius: 5px 5px 0 0;
+}
+.menu > li:nth-child(4){
+  border-radius: 5px 5px 0 0;
+}
+.menu > li:nth-child(5){
+  border-radius: 5px 5px 0 0;
+}
+.menu > li:nth-child(6){
+  border-radius: 5px 5px 0 0;
 }
 .menu a {
-    border-left: 3px solid rgba(0, 0, 0, 0);
+    border-left: 0px solid rgba(0, 0, 0, 0);
     color: #808080;
     display: block;
     font-family: 'Lucida Console';
     font-size: 18px;
     line-height: 54px;
     padding: 0 25px;
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
 }
 .menu li:hover {
-    background-color: #CAE1FF;
-    background: -moz-linear-gradient(#FFF0F5, #FFF0F5);
-    background: -ms-linear-gradient(#FFF0F5, #FFF0F5);
+    background: -moz-linear-gradient(#e8e8e8, #F0FFFF);
+    background: -ms-linear-gradient(#e8e8e8, #F0FFFF);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c1c1c), color-stop(100%, #1b1b1b));
-    background: -webkit-linear-gradient(#F5FFFA, #F5FFFA);
-    background: -o-linear-gradient(#FFFACD, #FFFACD);
+    background: -webkit-linear-gradient(#e8e8e8, #F0FFFF);
+    background: -o-linear-gradient(#e8e8e8, #F0FFFF);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b');
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b')";
-    background: linear-gradient(#F5FFFA, #F5FFFA);
+    background: linear-gradient(#e8e8e8, #F0FFFF);
 
     border-bottom: 1px solid #CD8C95;
     border-top: 2px solid #CDB7B5;
 }
 .menu li:hover > a {
     border-radius: 5px 0 0 0;
-    border-left: 2px solid #8B8B7A;
+    border-left: 1px solid #B2DFEE;
     color: #DAA520;
 }
 .submenu {
@@ -84,6 +97,16 @@
 .submenu li {
     opacity: 0;
 
+    background: -moz-linear-gradient(#CAE1FF, #F0F0F0);
+    background: -ms-linear-gradient(#CAE1FF, #F0F0F0);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1c1c1c), color-stop(100%, #1b1b1b));
+    background: -webkit-linear-gradient(#CAE1FF, #F0F0F0);
+    background: -o-linear-gradient(#CAE1FF, #F0F0F0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#1c1c1c', endColorstr='#1b1b1b')";
+    background: linear-gradient(#CAE1FF, #F0F0F0);
+
+
     -webkit-transform: rotateY(90deg);
     -moz-transform: rotateY(90deg);
     -ms-transform: rotateY(90deg);
@@ -97,7 +120,7 @@
     transition: opacity .4s, transform .5s;
 }
 .menu .submenu li:hover a {
-    border-left: 2px solid #CDCDB4;
+    border-left: 1px solid #B2DFEE;
     border-radius: 0;
     color: #EE2C2C;
 }
